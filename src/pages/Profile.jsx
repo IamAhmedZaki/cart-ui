@@ -155,7 +155,7 @@ export default function Profile() {
 
     const response = await fetch(
       // "http://localhost:5000/api/profile-password",
-      "https://cart-backend-nine.vercel.app/api/profile-password",
+      "https://api.clubpromfg.com/api/profile-password",
       {
         method: "PUT",
         headers: {

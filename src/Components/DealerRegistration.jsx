@@ -135,7 +135,7 @@ const DealerRegistration = () => {
     });
 
     const res = await fetch(
-      "https://cart-backend-nine.vercel.app/api/dealer-registration",
+      "https://api.clubpromfg.com/api/dealer-registration",
       // "http://localhost:5000/api/dealer-registration",
       {
         method: "POST",

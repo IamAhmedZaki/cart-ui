@@ -25,7 +25,7 @@ export default function LoginPage() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://cart-backend-nine.vercel.app/api/customers/login", {
+      const res = await fetch("https://api.clubpromfg.com/api/customers/login", {
       // const res = await fetch("http://localhost:5000/api/customers/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

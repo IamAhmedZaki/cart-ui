@@ -38,8 +38,8 @@ export default function Checkout() {
     };
 
     // Make the POST request with fetch
-    // const response = await fetch("https://cart-backend-nine.vercel.app/api/checkout/stripe-session", {
-    const response = await fetch("http://localhost:5000/api/checkout/stripe-session", {
+    const response = await fetch("https://api.clubpromfg.com/api/checkout/stripe-session", {
+    // const response = await fetch("http://localhost:5000/api/checkout/stripe-session", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",       // very important
