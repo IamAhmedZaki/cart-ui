@@ -97,7 +97,8 @@ export default function HeroSection() {
             </Link>
             <button
               onClick={() => {
-                window.location.href = "https://elipsestudio.com/quick-shop/";
+                // window.location.href = "https://elipsestudio.com/quick-shop/";
+                window.location.href = "https://clubpromfg.com/quick-shop/";
               }}
               className="bg-[#f9c821] hover:bg-[#f9c821]-200 text-white px-8 py-4 rounded-full font-bold uppercase tracking-widest text-sm transition-all duration-300 flex items-center gap-2 transform hover:scale-105 shadow-lg shadow-accent/20"
             >
